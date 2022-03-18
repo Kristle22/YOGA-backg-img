@@ -1,5 +1,5 @@
 body {
-    background: url('./img/yoga-project.png') no-repeat fixed center;
+    background: url('img/yoga-project.png') no-repeat fixed center;
     background-size: cover;
 }
 nav, main {

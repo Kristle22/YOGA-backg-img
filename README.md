@@ -2,9 +2,9 @@
 
 _35 group website project_
 
-This is my web project designed by yoga studio - web ui concept.
+This is my YOGA web project designed by yoga studio - web ui concept.
 
-Site published at: https://Kristle22.github.io/yoga
+Site published at: https://Kristle22.github.io/YOGA-backg-img
 
 Design: [YOGA](https://dribbble.com/shots/6857288/attachments/6857288-Yoga-studio-web-ui-concept?mode=media)
 
@@ -12,7 +12,8 @@ Design: [YOGA](https://dribbble.com/shots/6857288/attachments/6857288-Yoga-studi
 
 -   Github pages
 -   HTML
--   CSS
+-   CSS (floats)
+-   favicon
 
 ## Authors
 

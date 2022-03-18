@@ -1,0 +1,59 @@
+body {
+    background: url(/img/yoga-project.png) no-repeat fixed center;
+    background-size: cover;
+}
+nav, main {
+    width: 100%;
+    display: inline-block;
+}
+.logo-link {
+    width: 33%;
+    float: left;
+    margin-left: 7%;
+}
+ul {
+    width: 60%;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    padding: 0 15px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.side-text {
+    width: 37%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span {
+    color: #db3911;
+}
+p {
+    font-size: 14px;
+}
+.btn {
+    border: 1px solid #db3911;
+    background-color: #db3911;
+    padding: 5px 16px;
+    border-radius: 4px;
+    margin-top: 25px;
+    width: fit-content;
+}
+.btn a {
+    color: white;
+}
+.active {
+   border-bottom: 2px solid #db3911; 
+}

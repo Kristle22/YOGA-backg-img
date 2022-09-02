@@ -1,59 +1,98 @@
 body {
-    background: url('../img/yoga-project.png') no-repeat fixed center;
-    background-size: cover;
+  margin-left: 0;
+  padding: 0;
 }
-nav, main {
-    width: 100%;
-    display: inline-block;
+main {
+  background: url('../img/yoga-project.png') center/contain no-repeat;
+  height: 100vh;
+}
+nav,
+main {
+  width: 100%;
+  display: inline-block;
 }
 .logo-link {
-    width: 33%;
-    float: left;
-    margin-left: 7%;
+  width: 33%;
+  float: left;
+  margin-left: 7%;
 }
 ul {
-    width: 60%;
-    list-style-type: none;
-    margin: 10px 0;
-    padding: 0;
-    overflow: hidden;
+  width: 60%;
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;
+  overflow: hidden;
+  margin: 0;
+  float: right;
 }
 li {
-    float: left;
-    padding: 0 15px;
+  float: left;
+  padding: 0 15px;
 }
 a {
-    text-decoration: none;
-    color: black;
-    font-size: 14px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .side-text {
-    width: 37%;
-    float: left;
-    margin-left: 8%;
-    margin-top: 10%;
+  float: left;
+  margin-left: 8%;
+  margin-top: 10%;
 }
+.side-text p,
 h2 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 37%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
 }
 span {
-    color: #db3911;
+  color: #db3911;
 }
 p {
-    font-size: 14px;
+  font-size: 16px;
 }
 .btn {
-    border: 1px solid #db3911;
-    background-color: #db3911;
-    padding: 5px 16px;
-    border-radius: 4px;
-    margin-top: 25px;
-    width: fit-content;
+  border: 1px solid #db3911;
+  background-color: #db3911;
+  padding: 5px 16px;
+  border-radius: 4px;
+  margin-top: 25px;
+  width: fit-content;
 }
 .btn a {
-    color: white;
+  color: white;
 }
 .active {
-   border-bottom: 2px solid #db3911; 
+  border-bottom: 2px solid #db3911;
+}
+
+@media screen and (max-width: 800px) {
+  main {
+    background-position: 0 10%;
+  }
+  h2 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 600px) {
+  main {
+    background-position: 0 15%;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  main {
+    background-position: 0 20%;
+  }
+}
+@media screen and (max-width: 450px) {
+  main {
+    background-position: 0 35%;
+  }
+  .side-text {
+    width: 110%;
+  }
 }

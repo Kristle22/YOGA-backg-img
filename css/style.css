@@ -77,25 +77,21 @@ p {
 @media screen and (max-width: 800px) {
   h2 {
     width: 100%;
-    margin-top: -20px;
   }
 }
 @media screen and (max-width: 600px) {
-  h2 {
-    margin-top: -30px;
-  }
   p {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 500px) {
   main {
-    background-position: 0 20%;
+    background-position: 0 45%;
   }
 }
 @media screen and (max-width: 450px) {
-  main {
-    background-position: 0 45%;
+  h2 {
+    margin-top: -10px;
   }
   .side-text {
     width: 110%;
